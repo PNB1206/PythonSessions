@@ -9,8 +9,8 @@ class logingPage:
     text = "Pytest framework"
 
     def __init__(self, driver):
-        self.driver = webdriver.Chrome(ChromeDriverManager().install())
-        self.driver.get('https://www.google.com/')
+        self.driver = driver
+
 
 
     def enterText_searchbox(self):
